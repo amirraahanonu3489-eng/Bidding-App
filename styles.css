@@ -1,0 +1,43 @@
+#bidAmount {
+   padding: 5px 10px;
+}
+
+#bidAmount2 {
+   padding: 5px 10px;
+}
+
+button {
+   padding: 5px 10px;
+}
+
+#resetBidsBtn {
+   margin-top: 25px;
+}
+
+#highestBidder {
+   margin-top: 20px;
+}
+
+.current-bids {
+   background-color: lavender;
+   border: 1px solid #888;
+   border-radius: 6px;
+   padding: 16px;
+   box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+   width: 200px;
+}
+
+.bids {
+   padding: 0px;
+}
+
+.highest-bid {
+   font-weight: bold;
+   font-size: 25px;
+   background-color: lavender;
+   border: 1px solid #888;
+   border-radius: 6px;
+   padding: 16px;
+   box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+   width: 200px;
+}

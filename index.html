@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bidding App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Bidding Application!</h1>
+        <div class="current-bids">
+            <h2>Current Bids:</h2>
+            <ul class="bids" id="bidsList"></ul>
+        </div>
+        <div class="bid-section">
+            <h3>Bidder 1:</h3>
+            <input type="number" id="bidAmount" placeholder="Enter your bid" min="0">
+            <button onclick="placeBid('Bidder1')">Place Bid</button>
+            <h3>Bidder 2:</h3>
+            <input type="number" id="bidAmount2" placeholder="Enter your bid" min="0">
+            <button onclick="placeBid('Bidder2')">Place Bid</button>
+            <div>
+                <button id="resetBidsBtn" onclick="resetBidsBtn()">Reset Bids</button>
+            </div>
+        </div>
+
+        <div class="highest-bid" id="highestBidder">Highest Bidder: None</div>
+    </div>
+ 
+    <script src="bidapp.js"></script>
+</body>
+</html>
